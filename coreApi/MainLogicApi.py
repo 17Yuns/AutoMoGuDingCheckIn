@@ -364,7 +364,7 @@ class ApiClient:
             "endTime": report_info.get("endTime", None),
             "headImg": None,
             "yearmonth": report_info.get("yearmonth", None),
-            "imageList": None,
+            "imageList": [],
             "isFine": None,
             "latitude": None,
             "gpmsSchoolYear": None,
