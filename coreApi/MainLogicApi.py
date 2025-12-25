@@ -403,7 +403,218 @@ class ApiClient:
             "apply": None,
             "levelEntity": None,
             "formFieldDtoList": report_info.get("formFieldDtoList", []),
-            "fieldEntityList": [],
+            "fieldEntityList": [
+                {
+                    "fromName": "问卷式周报系统默认模板",
+                    "fieldId": "afd834366a1a721fb32caa31cea642tt",
+                    "isMust": 1,
+                    "fieldClass": "1",
+                    "moduleId": "1729476545058",
+                    "moduleType": "el-radio-group",
+                    "title": "1、本周你在实习岗位上的工作强度如何？",
+                    "optionEntity": [
+                        {
+                            "opt": "a",
+                            "optValue": "非常轻松，有大量空闲时间"
+                        },
+                        {
+                            "opt": "b",
+                            "optValue": "适中，能较好地适应"
+                        },
+                        {
+                            "opt": "c",
+                            "optValue": "较大，有些吃力但还能坚持"
+                        },
+                        {
+                            "opt": "d",
+                            "optValue": "极大，几乎难以承受"
+                        }
+                    ],
+                    "value": "a",
+                    "warningSetValue": "211,d",
+                    "warningPrompt": "请及时关注学生的工作情况"
+                },
+                {
+                    "fromName": "问卷式周报系统默认模板",
+                    "fieldId": "b6ccd7201e637ee50c9f62218e80c4yy",
+                    "isMust": 1,
+                    "fieldClass": "1",
+                    "moduleId": "1727572049719",
+                    "moduleType": "el-radio-group",
+                    "title": "2、你对本周实习工作内容的熟悉程度怎样？",
+                    "optionEntity": [
+                        {
+                            "opt": "a",
+                            "optValue": "已经非常熟练，能够独立完成各项任务"
+                        },
+                        {
+                            "opt": "b",
+                            "optValue": "比较熟悉，大部分工作可以顺利进行"
+                        },
+                        {
+                            "opt": "c",
+                            "optValue": "仍在学习适应中，需要较多指导"
+                        },
+                        {
+                            "opt": "d",
+                            "optValue": "很陌生，几乎不知道如何开展工作"
+                        }
+                    ],
+                    "value": "a",
+                    "warningSetValue": "",
+                    "warningPrompt": None
+                },
+                {
+                    "fromName": "问卷式周报系统默认模板",
+                    "fieldId": "fec6b35ec98d95c3970425e1fca855uu",
+                    "isMust": 1,
+                    "fieldClass": "1",
+                    "moduleId": "1729477250439",
+                    "moduleType": "el-radio-group",
+                    "title": "3、本周在实习工作中，你是否得到了企业导师或同事的有效指导与帮助？",
+                    "optionEntity": [
+                        {
+                            "opt": "a",
+                            "optValue": "总是能得到及时且详细的指导，收获很大"
+                        },
+                        {
+                            "opt": "b",
+                            "optValue": "大部分时候能得到帮助，对工作有一定促进"
+                        },
+                        {
+                            "opt": "c",
+                            "optValue": "偶尔得到指导，感觉帮助有限"
+                        },
+                        {
+                            "opt": "d",
+                            "optValue": "几乎没有得到指导，全靠自己摸索"
+                        }
+                    ],
+                    "value": "a",
+                    "warningSetValue": "",
+                    "warningPrompt": None
+                },
+                {
+                    "fromName": "问卷式周报系统默认模板",
+                    "fieldId": "9351e4b2a1efdba7d6dbf374a41191ii",
+                    "isMust": 1,
+                    "fieldClass": "1",
+                    "moduleId": "1729477199762",
+                    "moduleType": "el-radio-group",
+                    "title": "4、请你对本周的工作环境或条件进行评价",
+                    "optionEntity": [
+                        {
+                            "opt": "a",
+                            "optValue": "非常满意"
+                        },
+                        {
+                            "opt": "b",
+                            "optValue": "满意"
+                        },
+                        {
+                            "opt": "c",
+                            "optValue": "不满意"
+                        },
+                        {
+                            "opt": "d",
+                            "optValue": "非常不满意"
+                        }
+                    ],
+                    "value": "a",
+                    "warningSetValue": "211,d",
+                    "warningPrompt": "请及时关注学生的工作和生活情况"
+                },
+                {
+                    "fromName": "问卷式周报系统默认模板",
+                    "fieldId": "9ceb2e402b83a9abf53c6a01601c06oo",
+                    "isMust": 1,
+                    "fieldClass": "1",
+                    "moduleId": "1731393799067",
+                    "moduleType": "el-radio-group",
+                    "title": "5、本周你的情绪状态主要是怎样的？",
+                    "optionEntity": [
+                        {
+                            "opt": "a",
+                            "optValue": "乐观开朗，充满活力"
+                        },
+                        {
+                            "opt": "b",
+                            "optValue": "较为平静，没有明显情绪波动"
+                        },
+                        {
+                            "opt": "c",
+                            "optValue": "偶尔会感到焦虑或压力"
+                        },
+                        {
+                            "opt": "d",
+                            "optValue": "经常处于焦虑、压抑状态"
+                        }
+                    ],
+                    "value": "a",
+                    "warningSetValue": "4,d",
+                    "warningPrompt": "请及时关注学生的工作和生活情况"
+                },
+                {
+                    "fromName": "问卷式周报系统默认模板",
+                    "fieldId": "22c4883584e85b71a7c717ec625974pp",
+                    "isMust": 1,
+                    "fieldClass": "1",
+                    "moduleId": "1731393858096",
+                    "moduleType": "el-radio-group",
+                    "title": "6、本周与单位同事相处融洽程度的评价？",
+                    "optionEntity": [
+                        {
+                            "opt": "a",
+                            "optValue": "很融洽"
+                        },
+                        {
+                            "opt": "b",
+                            "optValue": "一般"
+                        },
+                        {
+                            "opt": "c",
+                            "optValue": "较差"
+                        },
+                        {
+                            "opt": "d",
+                            "optValue": "非常差"
+                        }
+                    ],
+                    "value": "a",
+                    "warningSetValue": "211,d",
+                    "warningPrompt": "请及时介入了解学生的情况"
+                },
+                {
+                    "fromName": "问卷式周报系统默认模板",
+                    "fieldId": "865508e6f4ad92a552bd519f5f9312ll",
+                    "isMust": 1,
+                    "fieldClass": "1",
+                    "moduleId": "1731393934526",
+                    "moduleType": "el-radio-group",
+                    "title": "7、你对本周工作状态的自我评价？",
+                    "optionEntity": [
+                        {
+                            "opt": "a",
+                            "optValue": "非常满意"
+                        },
+                        {
+                            "opt": "b",
+                            "optValue": "满意"
+                        },
+                        {
+                            "opt": "c",
+                            "optValue": "不满意"
+                        },
+                        {
+                            "opt": "d",
+                            "optValue": "非常不满意"
+                        }
+                    ],
+                    "value": "a",
+                    "warningSetValue": "4,d",
+                    "warningPrompt": "请及时介入了解学生的情况"
+                }
+            ],
             "feedback": None,
             "handleWay": None,
             "isWarning": 0,
